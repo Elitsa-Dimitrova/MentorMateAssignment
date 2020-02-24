@@ -48,7 +48,7 @@ public class Main {
 
     private static void printUpperHalf(Integer n) {
 
-        for (int i = 0, numberOfDashes = n*2-1, numberOfStars = n*2-1;
+        for (int i = 0, numberOfDashes = FONT_SIZE, numberOfStars = FONT_SIZE;
              i < n && numberOfDashes >= 0;
              i++, numberOfDashes--, numberOfStars+=2) {
             printRowNumber(i, numberOfDashes, numberOfStars);
